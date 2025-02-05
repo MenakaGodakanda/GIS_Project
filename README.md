@@ -2,6 +2,29 @@
 
 This project demonstrates the use of **open-source GIS tools** to generate, visualize, and interact with simulated geospatial data. It creates random **points** and **polygons**, visualizes them as a **static map (Matplotlib)** and an **interactive web-based map (Folium)**.
 
+## Overview
+<img width="1017" alt="Screenshot 2025-02-05 at 4 23 46 pm" src="https://github.com/user-attachments/assets/88f79403-6c76-46d6-87ba-e78df0038b17" />
+
+### Explanation
+#### 1. Generate Simulated GIS Data (`generate_data.py`)
+- Creates random points
+- Creates random polygons
+- Saves data as `GeoJSON`
+
+#### 2. Visualize Static Map - Matplotlib (`plot_static_map.py `)
+- Reads GeoJSON files
+- Plots points & polygons
+- Saves `static_map.png`
+
+#### 3. Create Interactive Map - Folium (`interactive_map.py `)
+- Reads GeoJSON files
+- Creates interactive map
+- Saves `interactive_map.html`
+
+#### 4. View Outputs
+- `static_map.png` (image)
+- `interactive_map.html` (web)
+
 ## Features
 
 - Generates Random GIS Data (Points & Polygons)
