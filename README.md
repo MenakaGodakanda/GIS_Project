@@ -21,8 +21,11 @@ sudo apt install python3 python3-pip
 git clone https://github.com/MenakaGodakanda/GIS_Project.git
 cd GIS_Project
 ```
+### 3. Create a Virtual Environment
+python3 -m venv gis
+source gis/bin/activate
 
-### 3. Install Required Libraries
+### 4. Install Required Libraries
 ```
 pip install geopandas matplotlib folium shapely fiona pyproj
 ```
